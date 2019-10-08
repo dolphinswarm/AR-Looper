@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.Video;
 
 public class mastermusiccontroller : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class mastermusiccontroller : MonoBehaviour
     public int currentlyPlayingInstruments;
     public double maxVolume;
     public AudioMixer mixer;
+    public VideoPlayer player;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +22,12 @@ public class mastermusiccontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (currentlyPlayingInstruments == 0)
+        {
+            player.Pause();
+        } else
+        {
+            player.Play();
+        }
     }
 }

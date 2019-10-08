@@ -65,6 +65,7 @@
     <Compile Include="Assets\mastermusiccontroller.cs" />
     <Compile Include="Assets\virtualbutton_changeset.cs" />
     <Compile Include="Assets\virtualbutton_playnote.cs" />
+    <Compile Include="Assets\virtualbutton_stopall.cs" />
     <Compile Include="Assets\virtualbutton_toggleeffect.cs" />
     <None Include="Assets\StreamingAssets\Vuforia\IMS461Sprint1.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />

@@ -70,7 +70,7 @@ public class virtualbutton_playnote : MonoBehaviour, IVirtualButtonEventHandler
 
             else
             {
-                // Else, turn on the loop;
+                // Else, turn on the loop
                 GetCurrentLoopFromSet().volume = 1;
                 isPlaying = true;
                 musicController.currentlyPlayingInstruments++;

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="UI-Design-Revised-Again-min" size="0.250000 0.141327" />
     <ImageTarget name="UI-Design-Revised" size="0.250000 0.140935" />
     <ImageTarget name="UI-Design" size="0.250000 0.140935" />
     <ImageTarget name="changingonthejob" size="0.100000 0.150273" />

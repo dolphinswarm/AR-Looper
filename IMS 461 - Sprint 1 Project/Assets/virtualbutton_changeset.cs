@@ -71,7 +71,6 @@ public class virtualbutton_changeset : MonoBehaviour, IVirtualButtonEventHandler
         {
             border.GetComponent<Renderer>().material = currentMaterial;
         }
-        
     }
 
     // When button released...
